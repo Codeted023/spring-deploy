@@ -14,4 +14,9 @@ public class HolaController {
     public  String HolaGente(){
         return "hola gentee";
     }
+
+    @GetMapping("/hola2")
+    public  String HolaGente2(){
+        return "hola gentee2";
+    }
 }
