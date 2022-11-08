@@ -9,4 +9,9 @@ public class HolaController {
     public  String HolaMundo(){
         return "hola mundo";
     }
+
+    @GetMapping("/hola")
+    public  String HolaGente(){
+        return "hola gentee";
+    }
 }
